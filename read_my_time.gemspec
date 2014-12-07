@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name        = 'read_my_time'
-  s.version     = '0.0.2'
-  s.date        = '2014-12-02'
+  s.version     = '0.0.3'
+  s.date        = '2014-12-7'
   s.summary     = "Humanize your times in your locale language"
   s.description = "Humanize your times in your locale language"
   s.authors     = ["David Zaba"]
