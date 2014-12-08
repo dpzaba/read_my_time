@@ -1,14 +1,14 @@
 en:
   read_my_time:
     seconds:
-      one: second
+      one:   second
       other: seconds
     minutes:
-      one: minute
+      one:   minute
       other: minutes
     hours:
-      one: hour
+      one:   hour
       other: hours
     days:
-      one: day
+      one:   day
       other: days

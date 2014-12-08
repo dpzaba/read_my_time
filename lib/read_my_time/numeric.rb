@@ -8,13 +8,6 @@ class Numeric
     # options by default
     opts[:skip_seconds] = false if opts[:skip_seconds].nil?
 
-    unit_time_dividers = {
-      seconds: 60,
-      minutes: 60,
-      hours:   24,
-      days:    365
-    }
-
     unit_time_dividers.inject([]) do |s, (unit_time, divider)|
 
       if seconds_int > 0
@@ -30,8 +23,18 @@ class Numeric
 
   end
 
+  # Used to localize
   def locale_prefix
     'read_my_time.'
+  end
+
+  def unit_time_dividers
+    {
+      seconds: 60,
+      minutes: 60,
+      hours:   24,
+      days:    365
+    }
   end
 
 end
