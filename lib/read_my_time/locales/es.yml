@@ -1,0 +1,14 @@
+es:
+  read_my_time:
+    seconds:
+      one:   segundo
+      other: segundos
+    minutes:
+      one:   minuto
+      other: minutos
+    hours:
+      one:   hora
+      other: horas
+    days:
+      one:   día
+      other: días

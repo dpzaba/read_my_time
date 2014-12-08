@@ -21,12 +21,17 @@ class Numeric
         seconds_int, rest = seconds_int.divmod(divider)
 
         if rest.nonzero? && !(unit_time == :seconds && opts[:skip_seconds])
-          s.unshift("#{rest} #{unit_time}")
+          word = I18n.t(locale_prefix + unit_time.to_s, count: rest)
+          s.unshift("#{rest} #{word}")
         end
       end
       s
     end.join(' ')
 
+  end
+
+  def locale_prefix
+    'read_my_time.'
   end
 
 end
