@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'read_my_time'
-  s.version     = '0.1.1'
+  s.version     = '0.1.2'
   s.date        = '2014-12-07'
   s.summary     = "Humanize your times in your locale language"
   s.description = "Humanize your times in your locale language. It is plain Ruby, you don't need Rails or Sinatra, but it works great with them also."

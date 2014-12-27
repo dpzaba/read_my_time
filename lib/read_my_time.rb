@@ -1,3 +1,4 @@
+require 'read_my_time/reader'
 require 'read_my_time/numeric'
 require 'i18n'
 
