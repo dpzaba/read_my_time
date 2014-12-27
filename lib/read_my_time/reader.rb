@@ -15,7 +15,7 @@ module ReadMyTime
           seconds_int, rest = seconds_int.divmod(divider)
 
           if rest.nonzero? && !(unit_time == :seconds && opts[:skip_seconds])
-            word = I18n.t(locale_prefix + unit_time.to_s, count: rest)
+            word = I18n.t(unit_time.to_s, count: rest, scope: locale_prefix)
             s.unshift("#{rest} #{word}")
           end
         end
@@ -26,7 +26,7 @@ module ReadMyTime
 
     # Used to localize
     def locale_prefix
-      'read_my_time.'
+      'read_my_time'
     end
 
     def unit_time_dividers
