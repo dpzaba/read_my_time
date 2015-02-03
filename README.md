@@ -1,16 +1,21 @@
+# Read my time
+
+[![Build Status](https://travis-ci.org/dpzaba/read_my_time.svg)](https://travis-ci.org/dpzaba/read_my_time)
+
+## Installation
+
+Just install the gem
+
 ```
 gem install read_my_time
 ```
 
-In Rails you should add ```gem 'read_my_time'``` to your Gemfile and run ```bundle install```
+or add ```gem 'read_my_time'``` to your Gemfile and run ```bundle install```
 
 
-Start ```irb``` or ```rails c```
-
+## Usage
 
 ```
-> require 'read_my_time'
- => true
 > 100.seconds_in_words
  => "1 minute 40 seconds"
 > 10000.seconds_in_words
@@ -20,3 +25,16 @@ Start ```irb``` or ```rails c```
 > 100000.seconds_in_words(skip_seconds: true)
  => "1 day 3 hours 46 minutes"
 ```
+
+## Options
+
+### Locales and Translations
+
+This gem use I18n to localize / translate the text
+
+### Time units
+
+
+## Contribute
+
+## License
