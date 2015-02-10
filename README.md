@@ -40,7 +40,7 @@ By default it avoids to show empty values like ```0 minutes```.
 
 This gem use ```I18n``` to localize / translate the text (basically time units).
 
-The default scope is: ```read_my_time```. So you can add or overwrite new translations easily (check lib/read_my_time/locales/en.yml for an example).
+The default scope is: ```read_my_time```. So you can add or overwrite new translations easily (check ```lib/read_my_time/locales/en.yml``` for an example).
 
 ### Time units
 
@@ -58,7 +58,7 @@ By default it sets the space character.
 
 ### Skip seconds
 
-To hide seconds just pass ```skip_seconds: false``` to the method.
+To hide seconds just pass ```skip_seconds: false``` to ```seconds_in_words``` method.
 
 
 ## Contribute
