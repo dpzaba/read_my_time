@@ -38,7 +38,7 @@ By default it avoids to show empty values like ```0 minutes```.
 
 ### Locales and Translations
 
-This gem use I18n to localize / translate the text (basically time units).
+This gem use ```I18n``` to localize / translate the text (basically time units).
 
 The default scope is: ```read_my_time```. So you can add or overwrite new translations easily (check lib/read_my_time/locales/en.yml for an example).
 
