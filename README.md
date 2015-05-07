@@ -58,7 +58,7 @@ By default it sets the space character.
 
 ### Skip seconds
 
-To hide seconds just pass ```skip_seconds: false``` to ```seconds_in_words``` method.
+To hide seconds just pass ```skip_seconds: true``` to ```seconds_in_words``` method.
 
 
 ## Contribute
