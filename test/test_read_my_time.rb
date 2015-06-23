@@ -6,7 +6,7 @@ require 'active_support/core_ext/numeric/time'
 class TestReadMyTime < MiniTest::Test
 
   def test_return_empty_for_zero
-    assert_equal '', 0.seconds_in_words
+    assert_equal('', 0.seconds_in_words)
   end
 
   def test_return_empty_for_negative_values
