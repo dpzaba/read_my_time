@@ -31,6 +31,14 @@ or add ```gem 'read_my_time'``` to your Gemfile and run ```bundle install```
  => "1 day 3 hours 46 minutes"
 ```
 
+Use spanish locale
+```
+> I18n.locale = :es
+ => :es
+> 100.seconds_in_words
+ => "1 minuto 40 segundos"
+```
+
 By default it avoids to show empty values like ```0 minutes```.
 
 
