@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/dpzaba/read_my_time.svg)](https://travis-ci.org/dpzaba/read_my_time)
 
+https://rubygems.org/gems/read_my_time
+
 Humanize your times in your locale language. It is plain Ruby, you don't need Rails or Sinatra, but it works great with them.
 
 This gem helps you to transform your senconds (a numeric value) into a readable string for humans.
