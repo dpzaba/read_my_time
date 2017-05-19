@@ -9,7 +9,7 @@ module ReadMyTime
       # options by default
       opts[:skip_seconds] = false if opts[:skip_seconds].nil?
 
-      unit_time_dividers.inject([]) do |s, (unit_time, divider)|
+      unit_time_dividers.each_with_object([]) do |(unit_time, divider), s|
 
         if seconds_int > 0
           seconds_int, rest = seconds_int.divmod(divider)
