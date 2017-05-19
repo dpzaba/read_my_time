@@ -1,7 +1,6 @@
-require 'minitest/autorun'
-
-require 'read_my_time'
 require 'active_support/core_ext/numeric/time'
+require 'minitest/autorun'
+require 'read_my_time'
 
 class TestReadMyTime < MiniTest::Test
 

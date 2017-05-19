@@ -13,8 +13,11 @@ Gem::Specification.new do |s|
   s.homepage    = 'https://github.com/dpzaba/read_my_time'
   s.license     = 'MIT'
 
-  s.add_runtime_dependency('i18n', '~> 0.8.1')
-  s.add_development_dependency('activesupport', '~> 5.1.1')
-
   s.files       = Dir["lib/**/*.rb"]
+
+  s.add_development_dependency('activesupport', '~> 5.1.1')
+  s.add_development_dependency('minitest', '~> 5.10.2')
+  s.add_development_dependency('rake', '~> 12.0.0')
+
+  s.add_runtime_dependency('i18n', '~> 0.8.1')
 end
