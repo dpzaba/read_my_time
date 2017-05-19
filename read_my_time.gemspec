@@ -13,8 +13,8 @@ Gem::Specification.new do |s|
   s.homepage    = 'https://github.com/dpzaba/read_my_time'
   s.license     = 'MIT'
 
-  s.add_runtime_dependency('i18n', '~> 0.6.11')
-  s.add_development_dependency('activesupport', '~> 4.1.7')
+  s.add_runtime_dependency('i18n', '~> 0.8.1')
+  s.add_development_dependency('activesupport', '~> 5.1.1')
 
   s.files       = Dir["lib/**/*.rb"]
 end
