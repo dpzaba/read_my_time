@@ -4,8 +4,8 @@ require 'read_my_time/version'
 Gem::Specification.new do |s|
   s.name        = 'read_my_time'
 
-  s.summary     = "Humanize your times in your locale language"
-  s.description = "Humanize your times in your locale language. It is plain Ruby, you don't need Rails or Sinatra, but it works great with them."
+  s.summary     = 'Humanize your times in your locale language'
+  s.description = "Humanize your times in your locale language. It is plain Ruby, you don't need Rails or Sinatra, but it works great with them"
 
   s.author      = 'David Zaba'
   s.email       = 'dpzaba@gmail.com'
