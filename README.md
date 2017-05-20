@@ -1,5 +1,6 @@
 # Read my time
 
+[![Gem Version](https://badge.fury.io/rb/read_my_time.svg)](https://badge.fury.io/rb/read_my_time)
 [![Build Status](https://travis-ci.org/dpzaba/read_my_time.svg)](https://travis-ci.org/dpzaba/read_my_time)
 
 https://rubygems.org/gems/read_my_time
