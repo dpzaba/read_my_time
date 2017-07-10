@@ -7,7 +7,7 @@ https://rubygems.org/gems/read_my_time
 
 Humanize your times in your locale language. It is plain Ruby, you don't need Rails or Sinatra, but it works great with them.
 
-This gem helps you to transform your senconds (a numeric value) into a readable string for humans.
+This gem helps you to transform your seconds (a numeric value) into a readable string for humans.
 
 
 ## Installation
